@@ -25,7 +25,8 @@ width: 70px;
 }
 
 .navbar-li{
-	color: red;
+	color: yellow;
+	
 	width: 70px;
 	margin-right: 10px;
 	transition: color  0.5s ease;
@@ -95,8 +96,14 @@ width: 500px;
 	
 }
 
+.input-box {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+	width: auto;
+}
 .input-box  input{
-	width: 630px;
+	width: 1000px;
 	padding: 10px 30px;
     border-radius: 20px;
 }
@@ -105,15 +112,48 @@ width: 500px;
 label {
 	margin-left: 30px;
 	margin-bottom: 30px;
+	color: red;
 
 }
 textarea{
 	resize: none;
 	border-radius: 20px;
+	height: 30px;
 }
-.input-box {
-	display: flex;
-	flex-direction: column;
-	margin-bottom: 20px;
-	width: auto;
+button {
+	background: none;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
 }
+
+.spidervenom{
+     display: flex;
+     justify-content: space-between;
+     align-items: baseline;
+
+}
+
+.spider{
+	width: 400px;
+	height: 300px;
+}
+
+.venom{
+    width: 400px;
+	height: 300px;
+}
+
+
+.spidertitle{
+	         width: 400px;
+	         color: red;
+	         
+}
+
+.venomtitle{
+	      width: 400px;
+	      color: red;
+	      }
+
+
