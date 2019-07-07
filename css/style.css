@@ -1,0 +1,119 @@
+body{background-image: url(../img/back.jpg.); 
+    background-size: contain;
+    background-size: auto;
+
+
+}
+
+.container {
+	
+	max-width: 1170px;
+	width: 100%;
+	margin: 0 auto;
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+}
+header {
+	padding: 20px 0;
+
+}
+.logo {
+width: 70px;
+
+}
+
+.navbar-li{
+	color: red;
+	width: 70px;
+	margin-right: 10px;
+	transition: color  0.5s ease;
+}
+.navbar-li:hover{
+	color: white;
+	width: 70px;
+}
+
+
+
+.endgame{
+     
+    display: flex;
+	justify-content: center;
+	height:500px;
+	align-items: center;
+
+}
+
+.end{ 
+	height: 500px;
+	transition: all;
+    transition-duration: 0.5s;
+    transition-delay: 0.5s;
+    transition-timing-function: ease;
+
+
+}
+
+.end:hover{
+border: solid: red;
+width: 500px;
+
+}
+
+.HISTORY{
+	display: flex;
+
+  flex-direction: column;
+	
+
+
+
+}
+
+.title{
+	width: 20px;
+	color: red;
+	padding: 20px 0;
+    
+}
+.title:hover{
+	color: white;
+	width: 70px;
+}
+
+.wikipedia{
+	width: auto;
+	color: red;
+	padding: 20px 0;
+
+}
+
+.wikipedia:hover{
+	color: white;
+	
+}
+
+.input-box  input{
+	width: 630px;
+	padding: 10px 30px;
+    border-radius: 20px;
+}
+
+
+label {
+	margin-left: 30px;
+	margin-bottom: 30px;
+
+}
+textarea{
+	resize: none;
+	border-radius: 20px;
+}
+.input-box {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+	width: auto;
+}
