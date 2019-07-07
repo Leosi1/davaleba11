@@ -1,6 +1,7 @@
-body{background-image: url(../img/back.jpg.); 
+body{background-image: url(../img/backs.jpg.); 
     background-size: contain;
     background-size: auto;
+    background-attachment: fixed;
 
 
 }
@@ -22,6 +23,18 @@ header {
 .logo {
 width: 70px;
 
+}
+
+
+
+.stiky img{
+	width: 170px;
+}
+.stiky{
+	 position: sticky;
+	 top: 0px;
+	 left: 0px;
+	 
 }
 
 .navbar-li{
@@ -119,6 +132,7 @@ textarea{
 	resize: none;
 	border-radius: 20px;
 	height: 30px;
+	border-bottom: 
 }
 button {
 	background: none;
@@ -149,11 +163,220 @@ button {
 	         width: 400px;
 	         color: red;
 	         
+	         
 }
 
 .venomtitle{
 	      width: 400px;
 	      color: red;
+	      
 	      }
 
 
+.venomtitle:hover{
+	color: white;
+	width: 400px;
+	border: solid;
+	
+}
+
+.spidertitle:hover{
+	color: white;
+	width: 400px;
+	border: solid; 
+}
+.blackwidowhawk{
+              padding-top: 50px;
+              display: flex;
+              justify-content: space-between;
+              align-items: baseline
+}
+
+.blackwidow img{
+	  width: 400px;
+	  height: 300px;     
+
+}
+
+.blackwidowtitle{
+	         width: 400px;
+	         color: red;
+}
+
+
+.hawk img{
+	width: 400px;
+	height: 300px;
+}
+
+.hawktitle {
+	         width: 400px;
+	         color: red;
+}
+
+.hawktitle:hover{
+	color: white;
+	width: 400px;
+	border: solid;
+	
+}
+
+.blackwidowtitle:hover{
+	color: white;
+	width: 400px;
+	border: solid; 
+}
+
+
+.bolodiv{
+	 
+	 background-color: gray;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+}
+
+.trailers{
+	          padding-top: 50px;
+	          padding-bottom: 50px;
+              display: flex;
+              justify-content: space-between;
+              align-items: baseline
+
+}
+
+@media only screen and (max-width:1024px) {
+  
+  .container {
+    width: 80%;
+    max-width: 800px;
+  }
+  body{background-image: url(../img/backs.jpg.); 
+    background-size: contain;
+    background-size: auto;
+    background-attachment: fixed;
+
+}
+
+
+.endgame{
+     
+    display: flex;
+	justify-content: center;
+	height:300px;
+	align-items: center;
+
+}
+
+.end{ 
+	height: 300px;
+	transition: all;
+    transition-duration: 0.5s;
+    transition-delay: 0.5s;
+    transition-timing-function: ease;
+
+}
+    .spider{
+	width: 270px;
+	height: 100px;
+}
+
+.venom{
+    width: 200px;
+	height: 100px;
+}
+
+
+.spidertitle{
+	         width: 250px;
+	         color: red;
+	         
+	         
+}
+
+.venomtitle{
+	      width: 250px;
+	      color: red;
+	      
+	      }
+
+
+.venomtitle:hover{
+	color: white;
+	width: 250px;
+	border: solid;
+	
+}
+
+.spidertitle:hover{
+	color: white;
+	width: 250px;
+	border: solid; 
+}
+.blackwidowhawk{
+              padding-top: 50px;
+              display: flex;
+              justify-content: space-between;
+              align-items: baseline
+}
+
+.blackwidow img{
+	  width: 250px;
+	  height: 100px;     
+
+}
+
+.blackwidowtitle{
+	         width: 200px;
+	         color: red;
+}
+
+
+.hawk img{
+	width: 250px;
+	height: 100px;
+}
+
+.hawktitle {
+	         width: 250px;
+	         color: red;
+}
+
+.hawktitle:hover{
+	color: white;
+	width: 250px;
+	border: solid;
+	
+}
+
+.blackwidowtitle:hover{
+	color: white;
+	width: 250px;
+	border: solid; 
+}
+
+
+.bolodiv{
+	 
+	 background-color: gray;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+}
+
+.trailers{
+	          padding-top: 50px;
+	          padding-bottom: 50px;
+              display: flex;
+              justify-content: space-between;
+              align-items: baseline
+
+}
+.spidertrailer {
+	width: 150px;
+}
+
+.blackwidowtrailer {
+	width: 150px;
+}
+}
